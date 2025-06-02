@@ -1,0 +1,11 @@
+next I'll give you the promt and please give the result in CoT technique
+___
+I'm working on project. This is gonna be the social platform application with over million users and I need to select a database for it.
+Requirements:
+1. Social platform with millions of users
+2. Need to store profiles, posts, and connections between users
+3. High data read speed required
+4. Expected 80% read operations, 20% write operations
+5. Scalability is important as the user base grows
+
+Please analyze requirements and and select the most suitable type of database for the project.

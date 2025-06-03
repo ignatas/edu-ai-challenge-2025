@@ -1,0 +1,8 @@
+I have a bug ticket with only header “Logout button doesn’t work on Safari. It just doesn’t respond.”
+I need a complete well structured ticket in JIRA made from that. Following the structure is important. It should contain:
+1. Title
+2. Description
+3. Steps to Reproduce
+4. Expected vs Actual Behavior
+5. Environment (if known)
+6. Severity or Impact

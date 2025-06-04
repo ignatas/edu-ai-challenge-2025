@@ -1,0 +1,16 @@
++ attachment task_3_input.docx
+
+please analyze the text in attached file. as a result Generate a concise summary of the input text. also 
+- analyze each sentiment and classify it as positive, neutral, or negative.
+- Provide a sentiment score (-1 for very negative, 0 for neutral, +1 for very positive).
+- Return the results in a structured JSON format
+
+use examples for the reference:
+Example 1
+- Text: "I love how easy this app is to use. Great job!"
+- Sentiment: Positive
+- Score: +1
+Example 2
+- Text: "The website keeps crashing every time I try to log in."
+-  Sentiment: Negative
+- Score: -1

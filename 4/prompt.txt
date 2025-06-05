@@ -1,0 +1,8 @@
+please do the code review of attached .js file.
+Analyze it from each of the three specified expert roles or perspectives of view: 
+- as a high skilled developer
+- as a security engineer
+- as a performance specialist
+
+For each role please provide specific recommendations as actions steps and observations in order to improve the code
+Format the result as .md divider into three sections

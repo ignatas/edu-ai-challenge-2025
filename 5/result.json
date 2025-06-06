@@ -1,0 +1,47 @@
+{
+{
+  "sentiment": "Negative",
+  "isRelevant": true,
+  "mainSubject": "Sensor and dongle reliability issues",
+  "positives": [],
+  "painPoints": [
+    "Sensor stops tracking intermittently (even at 8000Hz)",
+    "Issue persists when plugged in",
+    "Dongle malfunction (first unit had to be returned)",
+    "High price for perceived quality issues"
+  ],
+  "improvementSuggestions": [
+    "Fix sensor tracking reliability",
+    "Improve dongle functionality",
+    "Ensure consistent quality for premium pricing"
+  ],
+  "featuresMentioned": [
+    "Sensor performance",
+    "Dongle reliability",
+    "Price"
+  ],
+  "userExpertise": "Experienced"
+},
+{
+  "sentiment": "Mixed",
+  "isRelevant": true,
+  "mainSubject": "Value proposition vs. performance",
+  "positives": [
+    "No flaws in product performance",
+    "Suitable for enthusiasts who love it"
+  ],
+  "painPoints": [
+    "Overpriced relative to performance gains",
+    "Cheaper alternatives perform similarly despite lower specs"
+  ],
+  "improvementSuggestions": [
+    "Adjust pricing to better reflect value",
+    "Highlight unique benefits to justify premium"
+  ],
+  "featuresMentioned": [
+    "Price-to-performance ratio",
+    "Specifications"
+  ],
+  "userExpertise": "Experienced"
+}
+}

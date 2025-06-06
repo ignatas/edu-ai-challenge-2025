@@ -1,0 +1,17 @@
+use the attached file to learn.
+Then analyze next 2 feedbacks:
+1. "Sensor just stops tracking for like a half second kinda often even at 8000hz. I've also tried it plugged in and still the same problem. First one I got I had to return also because the dongle just didnt work, $150 mouse btw"
+2. "Is it worth it? It is a product with no flaws in my opinion, if you love it go for it, but its not worth the price since you'll be able to perform the same with a cheaper product with half the specs."
+
+Analyze the feedback only if it is relevant to the product. If not, set isRelevant parameter to false and skip further analysis.
+Format the result as json same structure as in provided examples.
+{
+  "sentiment": "string (Positive|Negative|Neutral|Mixed)",
+  "isRelevant": boolean,
+  "mainSubject": "string or null",
+  "positives": ["array of strings"],
+  "painPoints": ["array of strings"],
+  "improvementSuggestions": ["array of strings"],
+  "featuresMentioned": ["array of strings"],
+  "userExpertise": "string (Experienced|Novice|Unknown)"
+}

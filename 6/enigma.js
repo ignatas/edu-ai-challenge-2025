@@ -49,8 +49,21 @@ class Enigma {
     this.plugboardPairs = plugboardPairs;
   }
   stepRotors() {
-    if (this.rotors[2].atNotch()) this.rotors[1].step();
-    if (this.rotors[1].atNotch()) this.rotors[0].step();
+    // Handle double stepping: if middle rotor is at notch, both middle and left step
+    const middleAtNotch = this.rotors[1].atNotch();
+    const rightAtNotch = this.rotors[2].atNotch();
+
+    if (middleAtNotch) {
+      this.rotors[0].step(); // Left rotor steps
+      this.rotors[1].step(); // Middle rotor steps (double stepping)
+    }
+
+    // If right rotor is at notch, middle rotor steps (but not if it already stepped from double stepping)
+    if (rightAtNotch && !middleAtNotch) {
+      this.rotors[1].step();
+    }
+
+    // Right rotor always steps
     this.rotors[2].step();
   }
   encryptChar(c) {
@@ -105,6 +118,9 @@ function promptEnigma() {
     });
   });
 }
+
+// Export functions and classes for testing
+export { mod, plugboardSwap, Rotor, Enigma };
 
 if (import.meta.url === `file://${process.argv[1]}`) {
   promptEnigma();

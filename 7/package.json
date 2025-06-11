@@ -1,0 +1,31 @@
+{
+  "name": "seabattle-game",
+  "version": "2.0.0",
+  "description": "A modern Sea Battle (Battleship) CLI game written in ES6+",
+  "main": "seabattle-modern.js",
+  "type": "module",
+  "scripts": {
+    "start": "node seabattle-modern.js",
+    "legacy": "node seabattle.js",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "test:watch": "npm test -- --watch",
+    "test:coverage": "npm test -- --coverage",
+    "test:verbose": "npm test -- --verbose"
+  },
+  "keywords": [
+    "battleship",
+    "seabattle",
+    "game",
+    "cli",
+    "javascript",
+    "es6"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0"
+  }
+}
